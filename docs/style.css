@@ -99,6 +99,7 @@ p a {
 
 a:hover {
   text-decoration: underline;
+  color: #007bb3;
 }
 
 b {
@@ -278,13 +279,19 @@ b {
 .help:after {
   content: url(img/help-icon.svg);
   vertical-align: text-top;
-  padding-left: 8px;
+  padding-left: 12px;
 }
 
 .goto:after {
   content: url(img/goto-icon.svg);
   vertical-align: text-top;
-  padding-left: 8px;
+  margin-left: 12px;
+}
+
+.video:after {
+  content: url(img/video-icon.svg);
+  vertical-align: text-top;
+  padding-left: 12px;
 }
 
 .video-icon {
@@ -312,7 +319,7 @@ b {
   background-position: center;
   height: 32px;
   width: 96px;
-  margin: 8px 0 8px 0;
+  margin: 4px 0 8px 0;
   background-image: url("img/appstore.svg");
 }
 
@@ -323,7 +330,7 @@ b {
   background-position: center;
   height: 32px;
   width: 108px;
-  margin: 8px 0 8px 12px;
+  margin: 4px 0 8px 12px;
   background-image: url("img/gplay.svg");
 }
 
