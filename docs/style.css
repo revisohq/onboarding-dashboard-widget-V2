@@ -346,6 +346,10 @@ b {
   flex: 1;
 }
 
+.col-2 {
+  flex: 2;
+}
+
 .first-steps {
     flex: 1;
     padding-right: 16px;
