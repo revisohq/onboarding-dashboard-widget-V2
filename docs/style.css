@@ -276,6 +276,10 @@ b {
   content: url(img/feedback-icon.svg);
 }
 
+#newspaper-icon:before {
+  content: url(img/newspaper-icon.svg);
+}
+
 .help:after {
   content: url(img/help-icon.svg);
   vertical-align: text-top;
