@@ -31,11 +31,11 @@ footer, header, hgroup, menu, nav, section {
 /*================== General Stying ==================*/
 
 body {
-  max-width: 1280px;
+  max-width: 1080px;
   margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  padding: 5em;
+  padding: 32px;
   background: #E3EAF1;
 }
 
@@ -280,6 +280,10 @@ b {
   content: url(img/newspaper-icon.svg);
 }
 
+#read-icon:before {
+  content: url(img/read-icon.svg);
+}
+
 .help:after {
   content: url(img/help-icon.svg);
   vertical-align: text-top;
@@ -417,6 +421,7 @@ li>h3:before {
   color: #fff;
 }
 
+/*
 #button-primary {
 	width: 200px;
 	height: 32px;
@@ -434,6 +439,21 @@ li>h3:before {
 	background-color: #0079AE;
 
 } 
+*/
+
+.static li:after {
+  content: url(img/goto-icon.svg);
+  font-family: IonIcons;
+  font-size: 1.2em;
+  float: right;
+  top: 16px;
+  right: 20px;
+  position: relative;
+}
+
+.static li:hover {
+  background: #F2F5F8;
+}
 
 .info>p {
   background-color: #e6f7ff;
@@ -442,3 +462,19 @@ li>h3:before {
   color: #005075;
 }
 
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 1080px) {
+  .row {
+    display: block;
+  }
+
+  .first-steps {
+    padding: 0;
+  }
+
+  .learn {
+    padding: 32px 0;
+  }
+
+
+}
