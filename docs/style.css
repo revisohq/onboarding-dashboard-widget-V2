@@ -202,13 +202,12 @@ b {
   transition: .3s all;
 }
 
-.accordion__item > .accordion-header:after {
-  content: "\f3d0";
-  font-family: IonIcons;
+.accordion-header:after {
+  content: url(img/chevron.svg);
   font-size: 1.2em;
+  top: -2px;
   float: right;
   position: relative;
-  top: -2px;
   transition: .3s all;
   transform: rotate(0deg);
 }
@@ -229,7 +228,6 @@ b {
 
 #setup-icon:before {
   content: url(img/setup-icon.svg);
-  vertical-align: middle;
 }
 
 #import-icon:before {
@@ -421,29 +419,8 @@ li>h3:before {
   color: #fff;
 }
 
-/*
-#button-primary {
-	width: 200px;
-	height: 32px;
-	background-color: #0095D5;
-	color: #FFF;
-	border: none;
-	border-radius: 4px;
-	font-size: 14px;
-	margin: 12px 0;
-	padding: 0;
-	text-align: center;
-}
-
-#button-primary:hover {
-	background-color: #0079AE;
-
-} 
-*/
-
 .static li:after {
   content: url(img/goto-icon.svg);
-  font-family: IonIcons;
   font-size: 1.2em;
   float: right;
   top: 16px;
